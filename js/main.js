@@ -36,12 +36,12 @@
 		  			if ($(window).scrollTop() > altura ){
 		  				$('.menu').addClass("menu-fixed");
 		  				$('.menu').addClass("z-depth-2");
-		  				loguito.setAttribute("src", "imagenes/logo-nav.png");
+		  				loguito.setAttribute("src", "imagenes/logo-nav.jpg");
 
 		  			}else{
 		  				$('.menu').removeClass("menu-fixed");
 		  				$('.menu').removeClass("z-depth-2");
-		  				loguito.setAttribute("src", "imagenes/logo-navv.png");
+		  				loguito.setAttribute("src", "imagenes/logo-navv.jpg");
 		  			}
 
 		  		});
