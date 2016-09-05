@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+p {
+	text-align: justify;
+}
+
 h3, h5, h6 {
 	color: #00897b;
 	font-weight: bold;
