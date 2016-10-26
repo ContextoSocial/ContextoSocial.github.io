@@ -47,6 +47,8 @@
 		  		});
 		  });
 
+
+
 		  //  // Funcion para el aside fixed
 
 		  // $(document).ready(function(){
@@ -61,4 +63,23 @@
 		  // 			}
 		  // 		});
 		  // });
+
+		// funcion para el carrusel
+
+		$(document).ready(function(){
+      		$('.carousel').carousel();
+    	});
+
+    	 $(document).ready(function(){
+		    $('.materialboxed').materialbox();
+		});
+
+		// funcion para el acordeon
+
+		$(document).ready(function(){
+    		$('.collapsible').collapsible({
+      		accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    		});
+  		});
+
 }());

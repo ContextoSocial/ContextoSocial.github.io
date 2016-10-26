@@ -190,6 +190,7 @@ h3, h5, h6 {
 }
 
 .contenedor-card-padre {
+	padding: 1% 1%;
 	display: flex;
 	flex-wrap:wrap;
 	flex-direction:row;
@@ -200,6 +201,22 @@ h3, h5, h6 {
 	flex-grow:1;
 	width: 250px;
 	margin-right: 1%;
+}
+
+.contenedor-card-photo {
+	flex-grow:1;
+	width: 280px;
+	height: 200px;
+	margin-right: 1%;
+	margin-top: 1%;
+	background-color: black;
+	overflow: hidden;
+	/*margin-left: 8px;
+	margin-top: 8px;*/
+}
+
+.collapsible-header {
+	padding: 1px 60px;
 }
 
 .panel-header {
@@ -265,7 +282,7 @@ h3, h5, h6 {
 		flex:0;
 	}
 
-	.contenedor-card-padre .contenedor-card {
+	.contenedor-card-padre .contenedor-card .contenedor-card-photo {
 		flex-grow:1;
 	}
 }
@@ -278,7 +295,7 @@ h3, h5, h6 {
 
 	}
 	
-	.contenedor-card-padre .contenedor-card {
+	.contenedor-card-padre .contenedor-card .contenedor-card-photo {
 		flex-grow:1;
 	}
 
